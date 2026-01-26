@@ -1,0 +1,1729 @@
+{
+  "url": "https://www.tentree.ca/",
+  "meta": {
+    "title": "Every Item Plants 10 Trees | Sustainable Clothing by tentree®",
+    "description": "Canadian Brand that Makes Sustainable Apparel & Accessories for Women & Men. Made with Hemp, Organic Cotton, Recycled Polyester & Tencel. Every Item Plants 10 Trees. 100+ Million Planted."
+  },
+  "images": [
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/tentreelogo_grey_svg_big.svg?v=1743611304&width=100",
+      "alt": "tentree logo",
+      "class": null
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/WI25_OuterwearAndLayers_Homepage_Desktop_FA.jpg?v=1768841005&width=2000",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/WI25_OuterwearAndLayers_Homepage_Desktop_FA.jpg?v=1768841005&width=2000",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/WI25_Markdowns_Homepage_Desktop_FA.jpg?v=1767035364&width=2000",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/WI25_Markdowns_Homepage_Desktop_FA.jpg?v=1767035364&width=2000",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/WI25_BoxingWeek_Homepage_Desktop_Phase7_FA.jpg?v=1766094430&width=2000",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/WI25_BoxingWeek_Homepage_Desktop_Phase7_FA.jpg?v=1766094430&width=2000",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/WI25_BoxingWeek_Homepage_Desktop_Phase6_FA.jpg?v=1766087749&width=2000",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/WI25_BoxingWeek_Homepage_Desktop_Phase6_FA.jpg?v=1766087749&width=2000",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/WI25_BoxingWeek_Homepage_Desktop_Phase5_FA.jpg?v=1766083832&width=2000",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/WI25_BoxingWeek_Homepage_Desktop_Phase5_FA.jpg?v=1766083832&width=2000",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/WI25_BoxingWeek_Homepage_Desktop_Phase3_FA.jpg?v=1766014968&width=2000",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/WI25_BoxingWeek_Homepage_Desktop_Phase3_FA.jpg?v=1766014968&width=2000",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/WI25_BoxingWeek_Homepage_Desktop_Phase2_FA.jpg?v=1766012081&width=2000",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/WI25_BoxingWeek_Homepage_Desktop_Phase2_FA.jpg?v=1766012081&width=2000",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/WI25_BoxingWeek_Homepage_Desktop_Phase1.jpg?v=1766002409&width=2000",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/WI25_BoxingWeek_Homepage_Desktop_Phase1.jpg?v=1766002409&width=2000",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Red-Colville-Quilted-Shacket-TCM2676-5601_4.jpg?v=1758934408&width=300",
+      "alt": "Red-Colville-Quilted-Shacket *Model is 5'11.5\", wearing size M",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Green-Relax-Fit-Insulated-Hooded-Jacket-TCM6288-5590_1-Oliver.jpg?v=1763675475&width=300",
+      "alt": "Green-Relax-Fit-Insulated-Hooded-Jacket *Model is 5'11.5\", wearing size M",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Grey-Relaxed-Fit-Color-Block-Hoodie-TCM6140-6056_3.jpg?v=1760486844&width=300",
+      "alt": "Grey-Relaxed-Fit-Color-Block-Hoodie *Model is 5'11\", wearing size M",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Black-Relax-Bonded-Sherpa-Fleece-Zip-Jacket-TCM6299-5822_1-Liam.jpg?v=1763713109&width=300",
+      "alt": "Black-Relax-Bonded-Sherpa-Fleece-Zip-Jacket *Model is 5'11.5\", wearing size M",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Grey-Eco-Friendly-Drawcord-Graphic-Hoodie-TCM6346-5889_2.jpg?v=1758934478&width=300",
+      "alt": "Grey-Eco-Friendly-Drawcord-Graphic-Hoodie *Model is 6'2\", wearing size M",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Blue-Relax-Bonded-Sherpa-Fleece-Zip-Jacket-TCM6287-5883_3_8fdbbca4-67e8-42e2-8585-c3f9d922aee8.jpg?v=1764265719&width=300",
+      "alt": "Blue-Relax-Bonded-Sherpa-Fleece-Zip-Jacket *Model is 5'11\", wearing size M",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Black-Printed-Graphic-TreeFleece-Hoodie-TCM6305-5705_4.jpg?v=1758934468&width=300",
+      "alt": "Black-Printed-Graphic-TreeFleece-Hoodie *Model is 5'11.5\", wearing size M",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Womens_Sweaters_Cardigans_FA.jpg?v=1755891065&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Womens_Sweaters_Cardigans_FA.jpg?v=1755891065&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Mens_Sweaters_FA.jpg?v=1755892754&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Mens_Sweaters_FA.jpg?v=1755892754&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Womens_Jogger_Pants_Leggings_FA.jpg?v=1755891801&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Womens_Jogger_Pants_Leggings_FA.jpg?v=1755891801&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Mens_Joggers_Pants_FA.jpg?v=1755893139&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Mens_Joggers_Pants_FA.jpg?v=1755893139&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Womens_Hoodies_Sweatshirts_FA.jpg?v=1755892505&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Womens_Hoodies_Sweatshirts_FA.jpg?v=1755892505&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Mens_Hoodies_Sweatshirts_FA.jpg?v=1755893805&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Mens_Hoodies_Sweatshirts_FA.jpg?v=1755893805&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Womens_Dresses_Jumpsuits_FA.jpg?v=1755889161&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Womens_Dresses_Jumpsuits_FA.jpg?v=1755889161&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Womens_Jackets_Coats_FA.jpg?v=1755890721&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Womens_Jackets_Coats_FA.jpg?v=1755890721&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Mens_Jackets_Coats_FA.jpg?v=1755893628&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Mens_Jackets_Coats_FA.jpg?v=1755893628&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Acc_Sunglasses_FA.jpg?v=1755893950&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Acc_Sunglasses_FA.jpg?v=1755893950&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Acc_Bags_Backpacks_FA.jpg?v=1755890830&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Acc_Bags_Backpacks_FA.jpg?v=1755890830&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Acc_Hats_Beanies_FA.jpg?v=1755890891&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/FW25_SiteImageRefresh_HPCategories_Acc_Hats_Beanies_FA.jpg?v=1755890891&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/trash_talk_section_river_big_2.jpg?v=1743006229&width=500",
+      "alt": "",
+      "class": [
+        "block",
+        "md:hidden",
+        "shrink-0",
+        "h-auto",
+        "object-contain"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/trash_talk_section_river_big_2.jpg?v=1743006229&width=500",
+      "alt": "",
+      "class": [
+        "hidden",
+        "md:block",
+        "shrink-0",
+        "h-auto",
+        "object-contain"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/trash_talk_section_worker_big_2.jpg?v=1743006228&width=500",
+      "alt": "",
+      "class": [
+        "block",
+        "md:hidden",
+        "shrink-0",
+        "h-auto",
+        "object-contain"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/trash_talk_section_worker_big_2.jpg?v=1743006228&width=500",
+      "alt": "",
+      "class": [
+        "hidden",
+        "md:block",
+        "shrink-0",
+        "h-auto",
+        "object-contain"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/trash_talk_section_plant_big_2.jpg?v=1743006228&width=500",
+      "alt": "",
+      "class": [
+        "block",
+        "md:hidden",
+        "shrink-0",
+        "h-auto",
+        "object-contain"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/trash_talk_section_plant_big_2.jpg?v=1743006228&width=500",
+      "alt": "",
+      "class": [
+        "hidden",
+        "md:block",
+        "shrink-0",
+        "h-auto",
+        "object-contain"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/trash_talk_section_river_big_2.jpg?v=1743006229&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-contain"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/trash_talk_section_river_big_2.jpg?v=1743006229&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-contain"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/trash_talk_section_worker_big_2.jpg?v=1743006228&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-contain"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/trash_talk_section_worker_big_2.jpg?v=1743006228&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-contain"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/trash_talk_section_plant_big_2.jpg?v=1743006228&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-contain"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/trash_talk_section_plant_big_2.jpg?v=1743006228&width=500",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-contain"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Get_Rewarded_FA.svg?v=1743009097&width=250",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover",
+        "object-top"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Get_Rewarded_FA.svg?v=1743009097&width=250",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover",
+        "object-bottom"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Multi-Highline-Drop-Shoulder-Sweater-TCW5914-5931_1.jpg?v=1749230296&width=300",
+      "alt": "Multi-Highline-Drop-Shoulder-Sweater *Model is 5'8\", wearing size S",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Orange-Relax-Printed-Graphic-TreeFleece-Crew-TCW6586-5895_2.jpg?v=1752692449&width=300",
+      "alt": "Orange-Relax-Printed-Graphic-TreeFleece-Crew *Model is 5'7.75, wearing size S",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Burgundy-Regular-Fit-Elastic-Waist-Jogger-TCW3173-5596_1.jpg?v=1749230676&width=300",
+      "alt": "Burgundy-Regular-Fit-Elastic-Waist-Jogger *Model is 5'9\", wearing size S",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Black-Oversize-Printed-Graphic-Logo-Hoodie-TCW6308-5705_4.jpg?v=1749230875&width=300",
+      "alt": "Black-Oversize-Printed-Graphic-Logo-Hoodie *Model is 5'8\", wearing size S",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Multi-Womens-Longsleeve-Button-Down-TCW5382-6057_2.jpg?v=1753127305&width=300",
+      "alt": "Multi-Womens-Longsleeve-Button-Down *Model is 5'7.75, wearing size S",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Burgundy-TreeBlend-Classic-T-Shirt-TCW2455-5597_1.jpg?v=1753826569&width=300",
+      "alt": "Burgundy-TreeBlend-Classic-T-Shirt *Model is 5'8\", wearing size S",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Green-Quilted-Shacket-TCW5967-5591_1.jpg?v=1749230370&width=300",
+      "alt": "Green-Quilted-Shacket *Model is 5'9\", wearing size S",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Brown-Relax-TreeFleece-Sweatshirt-TCW6312-5582_2-Luci.jpg?v=1763237595&width=300",
+      "alt": "Brown-Relax-TreeFleece-Sweatshirt *Model is 5'7.75, wearing size S",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Black-Crew-Neck-Graphic-Shortsleeve-T-Shirt-TCW5937-2884_4.jpg?v=1721256106&width=300",
+      "alt": "Black-Crew-Neck-Graphic-Shortsleeve-T-Shirt *Model is 5'7\", wearing size S",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Grey-High-Rise-TreeFleece-Skirt-TCW6256-5604_1.jpg?v=1749231013&width=300",
+      "alt": "Grey-High-Rise-TreeFleece-Skirt *Model is 5'9\", wearing size S",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Virtual_Forest_FA.svg?v=1743009098&width=300",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover",
+        "object-left-top"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Virtual_Forest_FA.svg?v=1743009098&width=300",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover",
+        "object-left-top"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Planting_Autopilot_FA.svg?v=1743009097&width=300",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover",
+        "object-left-top"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/Planting_Autopilot_FA.svg?v=1743009097&width=300",
+      "alt": "",
+      "class": [
+        "w-full",
+        "h-full",
+        "object-cover",
+        "object-left-top"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/B-Corp-certification.svg?v=1730943920&width=512",
+      "alt": "",
+      "class": [
+        "w-full",
+        "max-w-52",
+        "md:max-w-40"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/TheClimateLabel-Black-Horiz-Outline.svg?v=1746830788&width=512",
+      "alt": "",
+      "class": [
+        "w-full",
+        "max-w-52",
+        "md:max-w-40"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/science_bases_targets_logo_converted.png?v=1730943920&width=512",
+      "alt": "",
+      "class": [
+        "w-full",
+        "max-w-52",
+        "md:max-w-40"
+      ]
+    },
+    {
+      "src": "https://www.tentree.ca/cdn/shop/files/RC_Landscape_Gradient_Colour_converted.png?v=1730943920&width=512",
+      "alt": "",
+      "class": [
+        "w-full",
+        "max-w-52",
+        "md:max-w-40"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "New Year. New Layers."
+    },
+    {
+      "tag": "h2",
+      "text": "New Year. New Layers."
+    },
+    {
+      "tag": "h2",
+      "text": "Up to 50% Off Select Styles"
+    },
+    {
+      "tag": "h2",
+      "text": "Up to 50% Off Select Styles"
+    },
+    {
+      "tag": "h2",
+      "text": "Last Chance: 3–Item Mystery Boxes"
+    },
+    {
+      "tag": "h2",
+      "text": "Last Chance: 3–Item Mystery Boxes"
+    },
+    {
+      "tag": "h2",
+      "text": "Free Shipping & 30–60% Off Sitewide"
+    },
+    {
+      "tag": "h2",
+      "text": "Free Shipping & 30–60% Off Sitewide"
+    },
+    {
+      "tag": "h2",
+      "text": "Save up to 70% off"
+    },
+    {
+      "tag": "h2",
+      "text": "Save up to 70% off"
+    },
+    {
+      "tag": "h2",
+      "text": "30–60% Off Sitewide"
+    },
+    {
+      "tag": "h2",
+      "text": "30–60% Off Sitewide"
+    },
+    {
+      "tag": "h2",
+      "text": "Happy Holidays"
+    },
+    {
+      "tag": "h2",
+      "text": "Happy Holidays"
+    },
+    {
+      "tag": "h2",
+      "text": "3–Item Mystery Boxes"
+    },
+    {
+      "tag": "h2",
+      "text": "3–Item Mystery Boxes"
+    },
+    {
+      "tag": "h2",
+      "text": "New Arrivals"
+    },
+    {
+      "tag": "h2",
+      "text": "Most Popular Categories"
+    },
+    {
+      "tag": "h2",
+      "text": "Every Item Plants 10 Trees"
+    },
+    {
+      "tag": "h2",
+      "text": "Bestsellers"
+    },
+    {
+      "tag": "h2",
+      "text": "California Residents Privacy Rights"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Shop Mystery Boxes",
+      "link": "https://www.tentree.ca/collections/mini-mystery-boxes"
+    },
+    {
+      "text": "Shop Sale",
+      "link": "https://www.tentree.ca/collections/sale"
+    },
+    {
+      "text": "Shop Deepest Discounts",
+      "link": "https://www.tentree.ca/collections/deepest-markdowns"
+    },
+    {
+      "text": "Shop Sale",
+      "link": "https://www.tentree.ca/collections/sale"
+    },
+    {
+      "text": ",  []",
+      "link": "Javascript:{}"
+    },
+    {
+      "text": "WOMENS",
+      "link": "https://www.tentree.ca/collections/womens"
+    },
+    {
+      "text": "MENS",
+      "link": "https://www.tentree.ca/collections/mens"
+    },
+    {
+      "text": "ACCESSORIES",
+      "link": "https://www.tentree.ca/collections/accessories"
+    },
+    {
+      "text": "CLIMATE+",
+      "link": "https://www.tentree.ca/collections/go-climate-plus"
+    },
+    {
+      "text": "IMPACT",
+      "link": "https://www.tentree.ca/"
+    },
+    {
+      "text": "Cart0",
+      "link": "https://www.tentree.ca/cart"
+    },
+    {
+      "text": "WOMENS",
+      "link": "https://www.tentree.ca/collections/womens"
+    },
+    {
+      "text": "All Clothing",
+      "link": "https://www.tentree.ca/collections/womens"
+    },
+    {
+      "text": "T-Shirts & Tanks",
+      "link": "https://www.tentree.ca/collections/womens-t-shirts-tanks"
+    },
+    {
+      "text": "Tops & Shirts",
+      "link": "https://www.tentree.ca/collections/womens-shirts-button-ups"
+    },
+    {
+      "text": "Sweaters & Cardigans",
+      "link": "https://www.tentree.ca/collections/womens-sweaters-cardigans"
+    },
+    {
+      "text": "Hoodies & Sweatshirts",
+      "link": "https://www.tentree.ca/collections/womens-hoodies-sweatshirts"
+    },
+    {
+      "text": "Dresses & Jumpsuits",
+      "link": "https://www.tentree.ca/collections/womens-dresses-and-rompers"
+    },
+    {
+      "text": "Skirts",
+      "link": "https://www.tentree.ca/collections/womens-skirts"
+    },
+    {
+      "text": "Jogger, Pants & Leggings",
+      "link": "https://www.tentree.ca/collections/womens-joggers-pants"
+    },
+    {
+      "text": "Jackets & Coats",
+      "link": "https://www.tentree.ca/collections/womens-jackets-coats"
+    },
+    {
+      "text": "Underwear",
+      "link": "https://www.tentree.ca/collections/womens-underwear"
+    },
+    {
+      "text": "New Arrivals",
+      "link": "https://www.tentree.ca/collections/womens-new-arrivals"
+    },
+    {
+      "text": "Best Sellers",
+      "link": "https://www.tentree.ca/collections/womens-best-sellers"
+    },
+    {
+      "text": "Activewear",
+      "link": "https://www.tentree.ca/collections/womens-sustainable-activewear"
+    },
+    {
+      "text": "Fleece",
+      "link": "https://www.tentree.ca/collections/sustainable-fleece"
+    },
+    {
+      "text": "Gift Cards",
+      "link": "https://www.tentree.ca/products/e-gift-code"
+    },
+    {
+      "text": "Sale",
+      "link": "https://www.tentree.ca/collections/womens-sale"
+    },
+    {
+      "text": "The Consignment Shop",
+      "link": "https://tentree.treet.co/"
+    },
+    {
+      "text": "MENS",
+      "link": "https://www.tentree.ca/collections/mens"
+    },
+    {
+      "text": "All Clothing",
+      "link": "https://www.tentree.ca/collections/mens"
+    },
+    {
+      "text": "T-Shirts",
+      "link": "https://www.tentree.ca/collections/mens-t-shirts-tanks"
+    },
+    {
+      "text": "Tops & Shirts",
+      "link": "https://www.tentree.ca/collections/mens-shirts-button-ups"
+    },
+    {
+      "text": "Hoodies & Sweatshirts",
+      "link": "https://www.tentree.ca/collections/mens-hoodies-sweatshirts"
+    },
+    {
+      "text": "Sweaters",
+      "link": "https://www.tentree.ca/collections/mens-sweaters-cardigans"
+    },
+    {
+      "text": "Joggers & Pants",
+      "link": "https://www.tentree.ca/collections/mens-sweatpants-joggers-pants"
+    },
+    {
+      "text": "Jackets & Coats",
+      "link": "https://www.tentree.ca/collections/mens-jackets-coats"
+    },
+    {
+      "text": "Underwear",
+      "link": "https://www.tentree.ca/collections/mens-underwear"
+    },
+    {
+      "text": "New Arrivals",
+      "link": "https://www.tentree.ca/collections/mens-new-arrivals"
+    },
+    {
+      "text": "Best Sellers",
+      "link": "https://www.tentree.ca/collections/mens-best-sellers"
+    },
+    {
+      "text": "Activewear",
+      "link": "https://www.tentree.ca/collections/mens-sustainable-activewear"
+    },
+    {
+      "text": "Fleece",
+      "link": "https://www.tentree.ca/collections/sustainable-fleece"
+    },
+    {
+      "text": "Gift Cards",
+      "link": "https://www.tentree.ca/products/e-gift-code"
+    },
+    {
+      "text": "Sale",
+      "link": "https://www.tentree.ca/collections/mens-sale"
+    },
+    {
+      "text": "The Consignment Shop",
+      "link": "https://tentree.treet.co/"
+    },
+    {
+      "text": "ACCESSORIES",
+      "link": "https://www.tentree.ca/collections/accessories"
+    },
+    {
+      "text": "All Accessories",
+      "link": "https://www.tentree.ca/collections/accessories"
+    },
+    {
+      "text": "Hats & Beanies",
+      "link": "https://www.tentree.ca/collections/accessories-hats"
+    },
+    {
+      "text": "Bags & Backpacks",
+      "link": "https://www.tentree.ca/collections/accessories-bags"
+    },
+    {
+      "text": "Mittens",
+      "link": "https://www.tentree.ca/collections/mittens"
+    },
+    {
+      "text": "Waterbottles",
+      "link": "https://www.tentree.ca/collections/waterbottles"
+    },
+    {
+      "text": "Sunglasses",
+      "link": "https://www.tentree.ca/collections/sunglasses"
+    },
+    {
+      "text": "Socks",
+      "link": "https://www.tentree.ca/collections/socks"
+    },
+    {
+      "text": "Shoes",
+      "link": "https://www.tentree.ca/collections/saye-sneakers"
+    },
+    {
+      "text": "New Arrivals",
+      "link": "https://www.tentree.ca/collections/accessories-new-arrivals"
+    },
+    {
+      "text": "Best Sellers",
+      "link": "https://www.tentree.ca/collections/accessories-best-sellers"
+    },
+    {
+      "text": "Gift Cards",
+      "link": "https://www.tentree.ca/products/e-gift-code"
+    },
+    {
+      "text": "Sale",
+      "link": "https://www.tentree.ca/collections/accessories-sale"
+    },
+    {
+      "text": "The Consignment Shop",
+      "link": "https://tentree.treet.co/"
+    },
+    {
+      "text": "CLIMATE+",
+      "link": "https://www.tentree.ca/collections/go-climate-plus"
+    },
+    {
+      "text": "About Us",
+      "link": "https://www.tentree.ca/pages/about"
+    },
+    {
+      "text": "Sustainability and Impact",
+      "link": "https://www.tentree.ca/pages/sustainability-report"
+    },
+    {
+      "text": "Materials",
+      "link": "https://www.tentree.ca/pages/materials"
+    },
+    {
+      "text": "Ethical Manufacturing",
+      "link": "https://www.tentree.ca/pages/ethical-manufacturing"
+    },
+    {
+      "text": "Packaging",
+      "link": "https://www.tentree.ca/pages/responsible-packaging"
+    },
+    {
+      "text": "Climate Action",
+      "link": "https://www.tentree.ca/pages/climate-action"
+    },
+    {
+      "text": "Tree Planting FAQ",
+      "link": "https://www.tentree.ca/pages/tree-planting-faq"
+    },
+    {
+      "text": "Our Forests",
+      "link": "https://impact.tentree.com/our-forests"
+    },
+    {
+      "text": "Create account",
+      "link": "https://www.tentree.ca/account/register?return_url=/account"
+    },
+    {
+      "text": "My Account",
+      "link": "https://www.tentree.ca/account"
+    },
+    {
+      "text": "Sign in",
+      "link": "https://www.tentree.ca/account/login?return_url=/account"
+    },
+    {
+      "text": "Sign out",
+      "link": "https://www.tentree.ca/account/logout"
+    },
+    {
+      "text": "Wishlist",
+      "link": "https://www.tentree.ca/pages/wishlist"
+    },
+    {
+      "text": "Rewards",
+      "link": "https://www.tentree.ca/pages/rewards"
+    },
+    {
+      "text": "Refer a Friend",
+      "link": "https://www.tentree.ca/pages/refer-a-friend"
+    },
+    {
+      "text": "Gift Card",
+      "link": "https://www.tentree.ca/products/e-gift-code"
+    },
+    {
+      "text": "Impact Wallet",
+      "link": "https://impact.tentree.com/welcome"
+    },
+    {
+      "text": "Circularity by tentree",
+      "link": "https://www.tentree.ca/pages/circularity"
+    },
+    {
+      "text": "The Environmentor Blog",
+      "link": "https://www.tentree.ca/blogs/environmentor"
+    },
+    {
+      "text": ",  []",
+      "link": "Javascript:{}"
+    },
+    {
+      "text": "SHOP WOMENS",
+      "link": "https://www.tentree.ca/collections/womens-favourites"
+    },
+    {
+      "text": "SHOP MENS",
+      "link": "https://www.tentree.ca/collections/mens-favourites"
+    },
+    {
+      "text": "SHOP WOMENS",
+      "link": "https://www.tentree.ca/collections/womens-favourites"
+    },
+    {
+      "text": "SHOP MENS",
+      "link": "https://www.tentree.ca/collections/mens-favourites"
+    },
+    {
+      "text": "SHOP WOMENS",
+      "link": "https://www.tentree.ca/collections/womens-sale"
+    },
+    {
+      "text": "SHOP MENS",
+      "link": "https://www.tentree.ca/collections/mens-sale"
+    },
+    {
+      "text": "SHOP WOMENS",
+      "link": "https://www.tentree.ca/collections/womens-sale"
+    },
+    {
+      "text": "SHOP MENS",
+      "link": "https://www.tentree.ca/collections/mens-sale"
+    },
+    {
+      "text": "Mystery Boxes",
+      "link": "https://www.tentree.ca/collections/mini-mystery-boxes"
+    },
+    {
+      "text": "All Sale",
+      "link": "https://www.tentree.ca/collections/sale"
+    },
+    {
+      "text": "Shop Mystery Boxes",
+      "link": "https://www.tentree.ca/collections/mini-mystery-boxes"
+    },
+    {
+      "text": "Shop All Sale",
+      "link": "https://www.tentree.ca/collections/sale"
+    },
+    {
+      "text": "SHOP WOMENS",
+      "link": "https://www.tentree.ca/collections/womens"
+    },
+    {
+      "text": "SHOP MENS",
+      "link": "https://www.tentree.ca/collections/mens"
+    },
+    {
+      "text": "SHOP WOMENS",
+      "link": "https://www.tentree.ca/collections/womens"
+    },
+    {
+      "text": "SHOP MENS",
+      "link": "https://www.tentree.ca/collections/mens"
+    },
+    {
+      "text": "Deepest Discounts",
+      "link": "https://www.tentree.ca/collections/deepest-markdowns"
+    },
+    {
+      "text": "All Sale",
+      "link": "https://www.tentree.ca/collections/sale"
+    },
+    {
+      "text": "Shop Deepest Discounts",
+      "link": "https://www.tentree.ca/collections/deepest-markdowns"
+    },
+    {
+      "text": "Shop All Sale",
+      "link": "https://www.tentree.ca/collections/sale"
+    },
+    {
+      "text": "Shop Womens",
+      "link": "https://www.tentree.ca/collections/womens"
+    },
+    {
+      "text": "Shop Mens",
+      "link": "https://www.tentree.ca/collections/mens"
+    },
+    {
+      "text": "Shop Womens",
+      "link": "https://www.tentree.ca/collections/womens"
+    },
+    {
+      "text": "Shop Mens",
+      "link": "https://www.tentree.ca/collections/mens"
+    },
+    {
+      "text": "Shop Womens",
+      "link": "https://www.tentree.ca/collections/womens"
+    },
+    {
+      "text": "Shop Mens",
+      "link": "https://www.tentree.ca/collections/mens"
+    },
+    {
+      "text": "Shop Womens",
+      "link": "https://www.tentree.ca/collections/womens"
+    },
+    {
+      "text": "Shop Mens",
+      "link": "https://www.tentree.ca/collections/mens"
+    },
+    {
+      "text": "Mystery Boxes",
+      "link": "https://www.tentree.ca/collections/mini-mystery-boxes"
+    },
+    {
+      "text": "Shop All",
+      "link": "https://www.tentree.ca/collections/clothing"
+    },
+    {
+      "text": "Shop Mystery Boxes",
+      "link": "https://www.tentree.ca/collections/mini-mystery-boxes"
+    },
+    {
+      "text": "Shop All",
+      "link": "https://www.tentree.ca/collections/clothing"
+    },
+    {
+      "text": "Women's Sweaters & Cardigans",
+      "link": "https://www.tentree.ca/collections/womens-sweaters-cardigans"
+    },
+    {
+      "text": "Men's Sweaters",
+      "link": "https://www.tentree.ca/collections/mens-sweaters-cardigans"
+    },
+    {
+      "text": "Women's Joggers , Pants & Leggings",
+      "link": "https://www.tentree.ca/collections/womens-joggers-pants"
+    },
+    {
+      "text": "Men's Sweatpants, Joggers & Pants",
+      "link": "https://www.tentree.ca/collections/mens-sweatpants-joggers-pants"
+    },
+    {
+      "text": "Women's Hoodies & Sweatshirts",
+      "link": "https://www.tentree.ca/collections/womens-hoodies-sweatshirts"
+    },
+    {
+      "text": "Men's Hoodies & Sweatshirts",
+      "link": "https://www.tentree.ca/collections/mens-hoodies-sweatshirts"
+    },
+    {
+      "text": "Women's Dresses & Rompers",
+      "link": "https://www.tentree.ca/collections/womens-dresses-and-rompers"
+    },
+    {
+      "text": "Women’s Jackets & Coats",
+      "link": "https://www.tentree.ca/collections/womens-jackets-coats"
+    },
+    {
+      "text": "Men's Jackets, Coats & Outerwear",
+      "link": "https://www.tentree.ca/collections/mens-jackets-coats"
+    },
+    {
+      "text": "tentree x Bailey Nelson",
+      "link": "https://www.tentree.ca/collections/sunglasses"
+    },
+    {
+      "text": "Bags & Backpacks",
+      "link": "https://www.tentree.ca/collections/accessories-bags"
+    },
+    {
+      "text": "Hat & Beanies",
+      "link": "https://www.tentree.ca/collections/accessories-hats"
+    },
+    {
+      "text": "OUR IMPACT",
+      "link": "https://www.tentree.ca/pages/sustainability"
+    },
+    {
+      "text": "ABOUT US",
+      "link": "https://www.tentree.ca/pages/about"
+    },
+    {
+      "text": "CREATE ACCOUNT",
+      "link": "https://www.tentree.ca/account/register?return_url=/pages/rewards/"
+    },
+    {
+      "text": "LOG IN TO VIEW POINTS",
+      "link": "https://www.tentree.ca/account/login?return_url=/pages/rewards/"
+    },
+    {
+      "text": "Learn more",
+      "link": "https://impact.tentree.com/welcome"
+    },
+    {
+      "text": "Subscribe Now",
+      "link": "https://www.tentree.ca/collections/go-climate-plus"
+    },
+    {
+      "text": "contact",
+      "link": "https://www.tentree.ca/pages/contact"
+    },
+    {
+      "text": "help centre",
+      "link": "https://www.tentree.ca/pages/help-center"
+    },
+    {
+      "text": "shipping",
+      "link": "https://www.tentree.ca/pages/help-center"
+    },
+    {
+      "text": "returns & exchanges",
+      "link": "https://returns.tentree.ca/"
+    },
+    {
+      "text": "klarna FAQ",
+      "link": "https://www.tentree.ca/pages/klarna-faq"
+    },
+    {
+      "text": "store locator",
+      "link": "https://www.tentree.ca/pages/store-locator"
+    },
+    {
+      "text": "fit guide",
+      "link": "https://www.tentree.ca/pages/fit-guide"
+    },
+    {
+      "text": "trade in program",
+      "link": "https://www.tentree.ca/pages/circularity"
+    },
+    {
+      "text": "pro program",
+      "link": "https://www.tentree.ca/pages/pro-deals"
+    },
+    {
+      "text": "become a retailer",
+      "link": "https://www.tentree.ca/pages/wholesale-request"
+    },
+    {
+      "text": "corporate product orders",
+      "link": "https://share.hsforms.com/13U6Z6EOQTPi13Qoj4UFT6Ac2xcd"
+    },
+    {
+      "text": "careers",
+      "link": "https://apply.workable.com/tentree/"
+    },
+    {
+      "text": "canadian transparency act",
+      "link": "https://cdn.shopify.com/s/files/1/2404/6643/files/2024_Reporting_-_Ten_Tree_International_Inc_signed.pdf?v=1748448331"
+    },
+    {
+      "text": "View Terms",
+      "link": "https://www.tentree.ca/\\\"/pages/terms-and-conditions\\\""
+    },
+    {
+      "text": "Privacy",
+      "link": "https://www.tentree.ca/\\\"/pages/privacy-policy\\\""
+    },
+    {
+      "text": "support@tentree.com",
+      "link": "https://www.tentree.ca/\\\"mailto:support@tentree.com\\\""
+    },
+    {
+      "text": "Give 20%Get $20",
+      "link": "https://www.tentree.ca/pages/refer-a-friend"
+    },
+    {
+      "text": "Privacy Policy",
+      "link": "https://www.tentree.ca/pages/privacy-policy"
+    },
+    {
+      "text": "Copyright Policy",
+      "link": "https://www.tentree.ca/pages/copyright-policy"
+    },
+    {
+      "text": "Terms and Conditions",
+      "link": "https://www.tentree.ca/pages/terms-and-conditions"
+    },
+    {
+      "text": "Opt-out",
+      "link": null
+    },
+    {
+      "text": "Accept",
+      "link": null
+    },
+    {
+      "text": "English",
+      "link": "https://www.tentree.ca/"
+    },
+    {
+      "text": "French",
+      "link": "https://www.tentree.ca/"
+    }
+  ],
+  "links": [
+    "https://www.tentree.ca/",
+    "https://www.tentree.ca/",
+    "https://www.tentree.ca/collections/mini-mystery-boxes",
+    "https://www.tentree.ca/collections/sale",
+    "https://www.tentree.ca/collections/deepest-markdowns",
+    "https://www.tentree.ca/collections/sale",
+    "Javascript:{}",
+    "https://www.tentree.ca/account",
+    "https://www.tentree.ca/",
+    "https://www.tentree.ca/collections/womens",
+    "https://www.tentree.ca/collections/mens",
+    "https://www.tentree.ca/collections/accessories",
+    "https://www.tentree.ca/collections/go-climate-plus",
+    "https://www.tentree.ca/",
+    "https://www.tentree.ca/account",
+    "https://www.tentree.ca/cart",
+    "https://www.tentree.ca/collections/womens",
+    "https://www.tentree.ca/collections/womens",
+    "https://www.tentree.ca/collections/womens-t-shirts-tanks",
+    "https://www.tentree.ca/collections/womens-shirts-button-ups",
+    "https://www.tentree.ca/collections/womens-sweaters-cardigans",
+    "https://www.tentree.ca/collections/womens-hoodies-sweatshirts",
+    "https://www.tentree.ca/collections/womens-dresses-and-rompers",
+    "https://www.tentree.ca/collections/womens-skirts",
+    "https://www.tentree.ca/collections/womens-joggers-pants",
+    "https://www.tentree.ca/collections/womens-jackets-coats",
+    "https://www.tentree.ca/collections/womens-underwear",
+    "https://www.tentree.ca/collections/womens-new-arrivals",
+    "https://www.tentree.ca/collections/womens-best-sellers",
+    "https://www.tentree.ca/collections/womens-sustainable-activewear",
+    "https://www.tentree.ca/collections/sustainable-fleece",
+    "https://www.tentree.ca/products/e-gift-code",
+    "https://www.tentree.ca/collections/womens-sale",
+    "https://tentree.treet.co/",
+    "https://www.tentree.ca/collections/mens",
+    "https://www.tentree.ca/collections/mens",
+    "https://www.tentree.ca/collections/mens-t-shirts-tanks",
+    "https://www.tentree.ca/collections/mens-shirts-button-ups",
+    "https://www.tentree.ca/collections/mens-hoodies-sweatshirts",
+    "https://www.tentree.ca/collections/mens-sweaters-cardigans",
+    "https://www.tentree.ca/collections/mens-sweatpants-joggers-pants",
+    "https://www.tentree.ca/collections/mens-jackets-coats",
+    "https://www.tentree.ca/collections/mens-underwear",
+    "https://www.tentree.ca/collections/mens-new-arrivals",
+    "https://www.tentree.ca/collections/mens-best-sellers",
+    "https://www.tentree.ca/collections/mens-sustainable-activewear",
+    "https://www.tentree.ca/collections/sustainable-fleece",
+    "https://www.tentree.ca/products/e-gift-code",
+    "https://www.tentree.ca/collections/mens-sale",
+    "https://tentree.treet.co/",
+    "https://www.tentree.ca/collections/accessories",
+    "https://www.tentree.ca/collections/accessories",
+    "https://www.tentree.ca/collections/accessories-hats",
+    "https://www.tentree.ca/collections/accessories-bags",
+    "https://www.tentree.ca/collections/mittens",
+    "https://www.tentree.ca/collections/waterbottles",
+    "https://www.tentree.ca/collections/sunglasses",
+    "https://www.tentree.ca/collections/socks",
+    "https://www.tentree.ca/collections/saye-sneakers",
+    "https://www.tentree.ca/collections/accessories-new-arrivals",
+    "https://www.tentree.ca/collections/accessories-best-sellers",
+    "https://www.tentree.ca/products/e-gift-code",
+    "https://www.tentree.ca/collections/accessories-sale",
+    "https://tentree.treet.co/",
+    "https://www.tentree.ca/collections/go-climate-plus",
+    "https://www.tentree.ca/pages/about",
+    "https://www.tentree.ca/pages/sustainability-report",
+    "https://www.tentree.ca/pages/materials",
+    "https://www.tentree.ca/pages/ethical-manufacturing",
+    "https://www.tentree.ca/pages/responsible-packaging",
+    "https://www.tentree.ca/pages/climate-action",
+    "https://www.tentree.ca/pages/tree-planting-faq",
+    "https://impact.tentree.com/our-forests",
+    "https://www.tentree.ca/account/register?return_url=/account",
+    "https://www.tentree.ca/account",
+    "https://www.tentree.ca/account/login?return_url=/account",
+    "https://www.tentree.ca/account/logout",
+    "https://www.tentree.ca/pages/wishlist",
+    "https://www.tentree.ca/pages/rewards",
+    "https://www.tentree.ca/pages/refer-a-friend",
+    "https://www.tentree.ca/products/e-gift-code",
+    "https://impact.tentree.com/welcome",
+    "https://www.tentree.ca/pages/circularity",
+    "https://www.tentree.ca/blogs/environmentor",
+    "Javascript:{}",
+    "https://www.tentree.ca/collections/womens-favourites",
+    "https://www.tentree.ca/collections/mens-favourites",
+    "https://www.tentree.ca/collections/womens-favourites",
+    "https://www.tentree.ca/collections/mens-favourites",
+    "https://www.tentree.ca/collections/womens-sale",
+    "https://www.tentree.ca/collections/mens-sale",
+    "https://www.tentree.ca/collections/womens-sale",
+    "https://www.tentree.ca/collections/mens-sale",
+    "https://www.tentree.ca/collections/mini-mystery-boxes",
+    "https://www.tentree.ca/collections/sale",
+    "https://www.tentree.ca/collections/mini-mystery-boxes",
+    "https://www.tentree.ca/collections/sale",
+    "https://www.tentree.ca/collections/womens",
+    "https://www.tentree.ca/collections/mens",
+    "https://www.tentree.ca/collections/womens",
+    "https://www.tentree.ca/collections/mens",
+    "https://www.tentree.ca/collections/deepest-markdowns",
+    "https://www.tentree.ca/collections/sale",
+    "https://www.tentree.ca/collections/deepest-markdowns",
+    "https://www.tentree.ca/collections/sale",
+    "https://www.tentree.ca/collections/womens",
+    "https://www.tentree.ca/collections/mens",
+    "https://www.tentree.ca/collections/womens",
+    "https://www.tentree.ca/collections/mens",
+    "https://www.tentree.ca/collections/womens",
+    "https://www.tentree.ca/collections/mens",
+    "https://www.tentree.ca/collections/womens",
+    "https://www.tentree.ca/collections/mens",
+    "https://www.tentree.ca/collections/mini-mystery-boxes",
+    "https://www.tentree.ca/collections/clothing",
+    "https://www.tentree.ca/collections/mini-mystery-boxes",
+    "https://www.tentree.ca/collections/clothing",
+    "https://www.tentree.ca/products/quilted-colville-shacket-crimson-heather",
+    "https://www.tentree.ca/products/ralston-jacket-forest-pine",
+    "https://www.tentree.ca/products/howson-hoodie-harbour-grey-heather-rustic-yellow",
+    "https://www.tentree.ca/products/sanford-full-zip-borealis-print-meteorite-black",
+    "https://www.tentree.ca/products/etched-mountain-hoodie-harbour-grey-heather-meteorite-black",
+    "https://www.tentree.ca/products/selway-jacket-midnight-blue-geo-tile",
+    "https://www.tentree.ca/products/slack-country-hoodie-meteorite-black-warm-oak",
+    "https://www.tentree.ca/collections/womens-sweaters-cardigans",
+    "https://www.tentree.ca/collections/womens-sweaters-cardigans",
+    "https://www.tentree.ca/collections/womens-sweaters-cardigans",
+    "https://www.tentree.ca/collections/mens-sweaters-cardigans",
+    "https://www.tentree.ca/collections/mens-sweaters-cardigans",
+    "https://www.tentree.ca/collections/mens-sweaters-cardigans",
+    "https://www.tentree.ca/collections/womens-joggers-pants",
+    "https://www.tentree.ca/collections/womens-joggers-pants",
+    "https://www.tentree.ca/collections/womens-joggers-pants",
+    "https://www.tentree.ca/collections/mens-sweatpants-joggers-pants",
+    "https://www.tentree.ca/collections/mens-sweatpants-joggers-pants",
+    "https://www.tentree.ca/collections/mens-sweatpants-joggers-pants",
+    "https://www.tentree.ca/collections/womens-hoodies-sweatshirts",
+    "https://www.tentree.ca/collections/womens-hoodies-sweatshirts",
+    "https://www.tentree.ca/collections/womens-hoodies-sweatshirts",
+    "https://www.tentree.ca/collections/mens-hoodies-sweatshirts",
+    "https://www.tentree.ca/collections/mens-hoodies-sweatshirts",
+    "https://www.tentree.ca/collections/mens-hoodies-sweatshirts",
+    "https://www.tentree.ca/collections/womens-dresses-and-rompers",
+    "https://www.tentree.ca/collections/womens-dresses-and-rompers",
+    "https://www.tentree.ca/collections/womens-dresses-and-rompers",
+    "https://www.tentree.ca/collections/womens-jackets-coats",
+    "https://www.tentree.ca/collections/womens-jackets-coats",
+    "https://www.tentree.ca/collections/womens-jackets-coats",
+    "https://www.tentree.ca/collections/mens-jackets-coats",
+    "https://www.tentree.ca/collections/mens-jackets-coats",
+    "https://www.tentree.ca/collections/mens-jackets-coats",
+    "https://www.tentree.ca/collections/sunglasses",
+    "https://www.tentree.ca/collections/sunglasses",
+    "https://www.tentree.ca/collections/sunglasses",
+    "https://www.tentree.ca/collections/accessories-bags",
+    "https://www.tentree.ca/collections/accessories-bags",
+    "https://www.tentree.ca/collections/accessories-bags",
+    "https://www.tentree.ca/collections/accessories-hats",
+    "https://www.tentree.ca/collections/accessories-hats",
+    "https://www.tentree.ca/collections/accessories-hats",
+    "https://www.tentree.ca/pages/sustainability",
+    "https://www.tentree.ca/pages/about",
+    "https://www.tentree.ca/account/register?return_url=/pages/rewards/",
+    "https://www.tentree.ca/account/login?return_url=/pages/rewards/",
+    "https://www.tentree.ca/products/broughton-sweater-dark-grey-heather-meteorite-black-linear-stripe",
+    "https://www.tentree.ca/products/autumn-flora-crew-burnt-caramel-meteorite-black",
+    "https://www.tentree.ca/products/treefleece-bamone-sweatpant-deep-burgundy",
+    "https://www.tentree.ca/products/understory-oversized-hoodie-meteorite-black-warm-oak",
+    "https://www.tentree.ca/products/fernwood-flannel-shirt-harbour-grey-shadow-plaid",
+    "https://www.tentree.ca/products/winslow-t-shirt-deep-burgundy-heather",
+    "https://www.tentree.ca/products/dunes-shacket-forest-pine-heather",
+    "https://www.tentree.ca/products/bridger-sweatshirt-birchwood",
+    "https://www.tentree.ca/products/autumn-flora-t-shirt-meteorite-black-pale-oak",
+    "https://www.tentree.ca/products/montrose-skirt-harbour-grey-heather",
+    "https://impact.tentree.com/welcome",
+    "https://www.tentree.ca/collections/go-climate-plus",
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/tentree-international/",
+    "https://explore.changeclimate.org/brand/tentree",
+    "https://www.tentree.ca/pages/sustainability-report",
+    "https://www.veritree.com/take-climate-action/restorative-coalition",
+    "https://www.tentree.ca/pages/contact",
+    "https://www.tentree.ca/pages/help-center",
+    "https://www.tentree.ca/pages/help-center",
+    "https://returns.tentree.ca/",
+    "https://www.tentree.ca/pages/klarna-faq",
+    "https://www.tentree.ca/pages/store-locator",
+    "https://www.tentree.ca/pages/fit-guide",
+    "https://www.tentree.ca/pages/circularity",
+    "https://www.tentree.ca/pages/pro-deals",
+    "https://www.tentree.ca/pages/wholesale-request",
+    "https://share.hsforms.com/13U6Z6EOQTPi13Qoj4UFT6Ac2xcd",
+    "https://apply.workable.com/tentree/",
+    "https://cdn.shopify.com/s/files/1/2404/6643/files/2024_Reporting_-_Ten_Tree_International_Inc_signed.pdf?v=1748448331",
+    "https://www.tentree.ca/\\\"/pages/terms-and-conditions\\\"",
+    "https://www.tentree.ca/\\\"/pages/privacy-policy\\\"",
+    "https://www.tentree.ca/\\\"mailto:support@tentree.com\\\"",
+    "https://www.tentree.ca/pages/refer-a-friend",
+    "https://instagram.com/tentree/",
+    "https://facebook.com/tentree/",
+    "https://youtube.com/@tentree",
+    "https://www.tentree.ca/pages/privacy-policy",
+    "https://www.tentree.ca/pages/copyright-policy",
+    "https://www.tentree.ca/pages/terms-and-conditions",
+    "https://www.tentree.ca/",
+    "https://www.tentree.ca/"
+  ],
+  "sections": [
+    {
+      "class": [
+        "splide"
+      ],
+      "preview_text": "Selling Fast: Last Chance to Get a Mystery Box.Shop Mystery BoxesFREE SHIPPING ON ORDERS OVER $100Free Shipping & 30-60%"
+    },
+    {
+      "class": [
+        "shopify-section",
+        "hero-image"
+      ],
+      "preview_text": "New Year. New Layers.Built to layer now and later. Thoughtful pieces designed to move through seasons—and last for years"
+    },
+    {
+      "class": null,
+      "preview_text": "New Year. New Layers.Built to layer now and later. Thoughtful pieces designed to move through seasons—and last for years"
+    },
+    {
+      "class": [
+        "shopify-section",
+        "product-groups-carousel-section"
+      ],
+      "preview_text": "New ArrivalsMEN'SWOMEN'SACCESSORIES"
+    },
+    {
+      "class": [
+        "shopify-section",
+        "general-carousel-section"
+      ],
+      "preview_text": "Most Popular CategoriesWomen's Sweaters & CardigansMen's SweatersWomen's Joggers , Pants & LeggingsMen's Sweatpants, Jog"
+    },
+    {
+      "class": [
+        "shopify-section",
+        "treecounter-bar-section"
+      ],
+      "preview_text": "TOGETHER WE'VE PLANTED117,846,160TREES117,846,160TOGETHER WE'VE PLANTED117,846,160TREES117,846,160TOGETHER WE'VE PLANTED"
+    },
+    {
+      "class": [
+        "shopify-section",
+        "grid-content-gallery"
+      ],
+      "preview_text": "Every Item Plants 10 TreesJoin Us in Protecting the World We Play InWe're on a mission to restore the planet by planting"
+    },
+    {
+      "class": [
+        "shopify-section",
+        "rewards-bar-section"
+      ],
+      "preview_text": "Get Rewarded For Doing GoodJoin our Rewards Program to earn points that can be used as a cash on future purchases.CREATE"
+    },
+    {
+      "class": [
+        "shopify-section",
+        "product-groups-carousel-section"
+      ],
+      "preview_text": "BestsellersWOMEN'SMEN'SACCESSORIES"
+    },
+    {
+      "class": [
+        "shopify-section",
+        "animated-cards-section"
+      ],
+      "preview_text": "Get your own interactive virtual forestRegister trees and get your own virtual forest island that will change as you pla"
+    },
+    {
+      "class": [
+        "shopify-section",
+        "footer-section"
+      ],
+      "preview_text": "CertificationsSupportcontacthelp centreshippingreturns & exchangesklarna FAQCompanystore locatorfit guidetrade in progra"
+    }
+  ]
+}
