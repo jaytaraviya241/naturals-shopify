@@ -3,20 +3,40 @@
 {% schema %}
 {
   "name": "Custom Search Bar",
-  "tag": "section",
-  "class": "section-custom-search",
   "settings": [
     {
-      "type": "select",
-      "id": "default_type",
-      "label": "Default Filter",
-      "options": [
-        { "value": "", "label": "All" },
-        { "value": "product", "label": "Products" },
-        { "value": "article", "label": "Articles" },
-        { "value": "page", "label": "Pages" }
-      ],
-      "default": ""
+      "type": "header",
+      "content": "Search Filters (fill all you want; leave blank to hide)"
+    },
+    {
+      "type": "text",
+      "id": "filter1_label",
+      "label": "Filter 1 Label"
+    },
+    {
+      "type": "text",
+      "id": "filter1_value",
+      "label": "Filter 1 Value (e.g., product)"
+    },
+    {
+      "type": "text",
+      "id": "filter2_label",
+      "label": "Filter 2 Label"
+    },
+    {
+      "type": "text",
+      "id": "filter2_value",
+      "label": "Filter 2 Value"
+    },
+    {
+      "type": "text",
+      "id": "filter3_label",
+      "label": "Filter 3 Label"
+    },
+    {
+      "type": "text",
+      "id": "filter3_value",
+      "label": "Filter 3 Value"
     },
     {
       "type": "text",
@@ -24,6 +44,7 @@
       "label": "Search Placeholder",
       "default": "<Search for products...>"
     }
-  ]
+  ],
+  "presets": [{ "name": "Default Custom Section" }]
 }
 {% endschema %}
