@@ -29,11 +29,11 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "SHOP WOMENS",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_2": "SHOP MENS",
+            "button_link_2": "shopify://collections/all",
             "button_style_secondary_2": false
           }
         }
@@ -43,8 +43,12 @@
         "text",
         "button"
       ],
+      "custom_css": [
+        ".banner__buttons .button {width: 200px !important; /* Fixed width for same size */ min-height: 50px; /* Consistent height */ display: flex; align-items: center; justify-content: center;}"
+      ],
       "settings": {
-        "image_overlay_opacity": 40,
+        "image": "shopify://shop_images/homebanner.webp",
+        "image_overlay_opacity": 30,
         "image_height": "small",
         "image_behavior": "none",
         "desktop_content_position": "middle-left",
