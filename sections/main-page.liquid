@@ -1,81 +1,83 @@
 {{ 'section-main-page.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-  @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+
+    .page-width{
+     padding-left: 0px;
+    padding-right: 0px;
   }
 
-  .page-width{
-    padding: 0px;
-  }
-  .az-filter {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 2rem;
-    justify-content: center;
-  }
-  .az-btn {
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    border-radius: .5rem;
-    padding: 10px 10px;
-    transition: 0.3s;
-    font-size: 20px;
-  }
+    .az-filter {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 2rem;
+      justify-content: center;
+    }
+    .az-btn {
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      border-radius: .5rem;
+      padding: 10px 10px;
+      transition: 0.3s;
+      font-size: 20px;
+    }
 
-  .btn {
-    border: none;
-    background: none;
-    font-size: larger;
-  }
-  .az-btn.active, .az-btn:hover {
-    background: #205c40;
-    color: #fff;
-  }
-  .brands-grid {
-    display: grid;
-    grid-template-columns: repeat({{ section.settings.columns }}, 1fr);
+    .btn {
+      border: none;
+      background: none;
+      font-size: larger;
+    }
+    .az-btn.active, .az-btn:hover {
+      background: #205c40;
+      color: #fff;
+    }
+    .brands-grid {
+      display: grid;
+      grid-template-columns: repeat({{ section.settings.columns }}, 1fr);
 
-    /* align-items: start; Removed to allow stretching */
-  }
-  .brand-group {
+      /* align-items: start; Removed to allow stretching */
+    }
+    .brand-group {
 
-    border-bottom: 1px solid #b8b8b8;
-    padding-bottom: 1rem;
-    height: 100%; /* Ensure it fills the grid cell */
-    display: flex;
-    flex-direction: column;
-  }
-  .brands-letter {
-    font-weight: bold;
-    margin-bottom: 1rem;
-    color: #333;
-    font-size: 1.5em;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 0.5rem;
-  }
-  .brand-item {
-    display: block;
-    padding: 0.5rem 0;
-    text-align: left;
-    transition: all 0.2s;
-    color: inherit;
-    text-decoration: none;
-  }
-  .brand-item:hover {
-    color: #205c40;
-    padding-left: 5px;
-  }
+      border-bottom: 1px solid #b8b8b8;
+      padding-bottom: 1rem;
+      height: 100%; /* Ensure it fills the grid cell */
+      display: flex;
+      flex-direction: column;
+    }
+    .brands-letter {
+      font-weight: bold;
+      margin-bottom: 1rem;
+      color: #333;
+      font-size: 1.5em;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 0.5rem;
+    }
+    .brand-item {
+      display: block;
+      padding: 0.5rem 0;
+      text-align: left;
+      transition: all 0.2s;
+      color: inherit;
+      text-decoration: none;
+    }
+    .brand-item:hover {
+      color: #205c40;
+      padding-left: 5px;
+    }
 {%- endstyle -%}
 
 <div class="page-width section-{{ section.id }}-padding">
@@ -89,24 +91,25 @@
       <button class="az-btn" data-letter="{{ letter }}">{{ letter }}</button>
     {% endfor %}
   </div>
-  
+
   <div class="brands-grid" id="brandsContainer">
     {% assign current_letter = '' %}
     {% assign vendors_sorted = shop.vendors | sort_natural %}
-    
+
     {% for vendor in vendors_sorted %}
       {% assign first_letter = vendor | slice: 0, 1 | upcase %}
-      
+
       {% if first_letter != current_letter %}
         {% if current_letter != '' %}
-          </div> <!-- Close previous brand-group -->
+          </div>
+          <!-- Close previous brand-group -->
         {% endif %}
-        
+
         {% assign current_letter = first_letter %}
         <div class="brand-group" data-letter="{{ current_letter }}">
           <h3 class="brands-letter">{{ current_letter }}</h3>
       {% endif %}
-      
+
       <a href="/collections/all/{{ vendor | handleize }}" class="brand-item link">
         {{- vendor -}}
         {%- if section.settings.show_count %}
@@ -114,9 +117,10 @@
         {% endif -%}
       </a>
     {% endfor %}
-    
+
     {% if current_letter != '' %}
-      </div> <!-- Close last brand-group -->
+      </div>
+      <!-- Close last brand-group -->
     {% endif %}
   </div>
 </div>
