@@ -19,11 +19,6 @@
     justify-content: center;
   }
   .az-btn {
-    /* padding: 0.5rem 1rem;
-    cursor: pointer;
-    border: none;
-    background: none;
-    font-size: larger; */
     float: left;
     border: none;
     outline: none;
@@ -41,30 +36,36 @@
   }
   .az-btn.active, .az-btn:hover {
     background: #205c40;
+    color: #fff;
   }
   .brands-grid {
     display: grid;
     grid-template-columns: repeat({{ section.settings.columns }}, 1fr);
-    gap: 1rem;
+    gap: 2rem;
+    align-items: start;
+  }
+  .brand-group {
+    background: #fff; /* Optional: adds distinction if background is grey */
   }
   .brands-letter {
     font-weight: bold;
-    margin-top: 2rem;
+    margin-bottom: 1rem;
     color: #333;
-    grid-column: 6 / -1;
-
+    font-size: 1.5em;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
   }
   .brand-item {
-    padding: 1rem;
-    border: 1px solid #eee;
-    text-align: center;
-    transition: all 0.3s;
-    display: flex;
-    width: 20%;
+    display: block;
+    padding: 0.5rem 0;
+    text-align: left;
+    transition: all 0.2s;
+    color: inherit;
+    text-decoration: none;
   }
-
   .brand-item:hover {
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    color: #205c40;
+    padding-left: 5px;
   }
 {%- endstyle -%}
 
@@ -79,39 +80,62 @@
       <button class="az-btn" data-letter="{{ letter }}">{{ letter }}</button>
     {% endfor %}
   </div>
-  <div class="brands-container" id="brandsContainer">
+  
+  <div class="brands-grid" id="brandsContainer">
     {% assign current_letter = '' %}
-      {% for vendor in shop.vendors %}
-        {% assign first_letter = vendor | slice: 0 %}
-        {% if first_letter != current_letter %}
-          {% assign current_letter = first_letter %}
-          <h3 class="brands-letter">{{ current_letter }}</h3>
+    {% assign vendors_sorted = shop.vendors | sort_natural %}
+    
+    {% for vendor in vendors_sorted %}
+      {% assign first_letter = vendor | slice: 0, 1 | upcase %}
+      
+      {% if first_letter != current_letter %}
+        {% if current_letter != '' %}
+          </div> <!-- Close previous brand-group -->
         {% endif %}
-        <a href="/collections/all/{{ vendor | handleize }}" class="brand-item link">
-          {{- vendor -}}
-          {%- if section.settings.show_count %}
-            ({{ vendor | split: ' ' | first | append: '-products-count' | placeholder }})
-          {% endif -%}
-        </a>
-      {% endfor %}
+        
+        {% assign current_letter = first_letter %}
+        <div class="brand-group" data-letter="{{ current_letter }}">
+          <h3 class="brands-letter">{{ current_letter }}</h3>
+      {% endif %}
+      
+      <a href="/collections/all/{{ vendor | handleize }}" class="brand-item link">
+        {{- vendor -}}
+        {%- if section.settings.show_count %}
+          <span class="count">({{ vendor | split: ' ' | first | append: '-products-count' | placeholder }})</span>
+        {% endif -%}
+      </a>
+    {% endfor %}
+    
+    {% if current_letter != '' %}
+      </div> <!-- Close last brand-group -->
+    {% endif %}
   </div>
 </div>
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
     const filterBtns = document.querySelectorAll('.az-btn');
-    const brands = document.querySelectorAll('.brand-item, .brands-letter');
+    const brandGroups = document.querySelectorAll('.brand-group');
+
     filterBtns.forEach((btn) => {
       btn.addEventListener('click', () => {
+        // Remove active class from all buttons
         filterBtns.forEach((b) => b.classList.remove('active'));
+        // Add active class to clicked button
         btn.classList.add('active');
+
         const letter = btn.dataset.letter;
-        brands.forEach((item) => {
+
+        brandGroups.forEach((group) => {
           if (letter === 'all') {
-            item.style.display = 'flex';
+            group.style.display = 'block';
           } else {
-            const firstLetter = item.textContent.trim().charAt(0).toUpperCase();
-            item.style.display = firstLetter === letter ? 'flex' : 'none';
+            const groupLetter = group.dataset.letter;
+            if (groupLetter === letter) {
+              group.style.display = 'block';
+            } else {
+              group.style.display = 'none';
+            }
           }
         });
       });
