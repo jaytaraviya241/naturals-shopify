@@ -78,8 +78,8 @@
   <div class="brands-container" id="brandsContainer">
     {% assign current_letter = '' %}
       {% for vendor in shop.vendors %}
+        <div class="atoz">
         {% assign first_letter = vendor | slice: 0 %}
-
         {% if first_letter != current_letter %}
           {% assign current_letter = first_letter %}
           <h3 class="brands-letter">{{ current_letter }}</h3>
@@ -90,6 +90,7 @@
             ({{ vendor | split: ' ' | first | append: '-products-count' | placeholder }})
           {% endif -%}
         </a>
+        </div>
       {% endfor %}
   </div>
 </div>
