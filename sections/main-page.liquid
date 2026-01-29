@@ -104,10 +104,10 @@
         const letter = btn.dataset.letter;
         brands.forEach((item) => {
           if (letter === 'all') {
-            item.style.display = 'block';
+            item.style.display = 'flex';
           } else {
             const firstLetter = item.textContent.trim().charAt(0).toUpperCase();
-            item.style.display = firstLetter === letter ? 'block' : 'none';
+            item.style.display = firstLetter === letter ? 'flex' : 'none';
           }
         });
       });
