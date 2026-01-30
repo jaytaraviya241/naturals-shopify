@@ -16,6 +16,16 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "categories_page_6Qpziy": {
+      "type": "Categories-page",
+      "custom_css": [],
+      "name": "Categories Grid",
+      "settings": {
+        "title": "Shop by Category",
+        "columns_desktop": 6,
+        "collection_list": []
+      }
     }
   },
   "order": [
