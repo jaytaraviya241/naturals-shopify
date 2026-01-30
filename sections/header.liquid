@@ -280,15 +280,17 @@
       </a>
     </div>
   </header>
-  {%- liquid
-    if section.settings.menu != blank
-      if section.settings.menu_type_desktop == 'dropdown'
-        render 'header-dropdown-menu'
-      elsif section.settings.menu_type_desktop != 'drawer'
-        render 'header-mega-menu'
+  <div class="header__menu-container" style="display: flex; justify-content: center;">
+    {%- liquid
+      if section.settings.menu != blank
+        if section.settings.menu_type_desktop == 'dropdown'
+          render 'header-dropdown-menu'
+        elsif section.settings.menu_type_desktop != 'drawer'
+          render 'header-mega-menu'
+        endif
       endif
-    endif
-  %}
+    %}
+  </div>
 </{{ header_tag }}>
 
 {%- if settings.cart_type == "notification" -%}
