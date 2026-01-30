@@ -1,6 +1,6 @@
 <div class="categories-grid-container">
   {% if section.settings.title != blank %}
-    <h2 class="categories-title">{{ section.settings.title | escape }}</h2>
+    <h1 class="categories-title">Categories</h1>
   {% endif %}
 
   <div class="categories-grid">
@@ -86,9 +86,10 @@
 .category-item {
   text-decoration: none;
   transition: transform 0.3s ease;
+  width: fit-content;
 }
 .category-item:hover {
-  transform: translateY(-5px);
+  transform: scale(1.05);
 }
 .category-link {
   text-decoration: none;
@@ -99,9 +100,11 @@
   border-radius: 8px;
   aspect-ratio: 1 / 1;
   background-color: #f4f4f4;
+  width: fit-content;
+  height: fit-content;
 }
 .category-image {
-  width: 100%;
+  width: 131px;
   height: 100%;
   object-fit: cover;
   display: block;
@@ -109,7 +112,7 @@
 .category-name {
   margin-top: 15px;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   font-weight: 600;
 }
 .placeholder-svg {
