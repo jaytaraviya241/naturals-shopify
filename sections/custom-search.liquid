@@ -1,76 +1,22 @@
-<div class="flex items-center space-x-2 max-w-md" {{ section.settings.container_classes }}>
-  <form action="{{ routes.search_url }}" method="get" role="search" class="flex items-center w-full">
-    {% assign types_array = search.types | default: section.settings.default_type | split: ',' %}
-    <select
-      name="type"
-      class="px-3 py-2 border border-gray-300 rounded-l-lg bg-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 {{ section.settings.select_classes }}"
-    >
-      <option value="">All</option>
-      {% for option in section.settings.search_options %}
-        <option
-          value="{{ option.value }}"
-          {% if types_array contains option.value %}
-            selected
-          {% endif %}
-        >
-          {{ option.label }}
-        </option>
-      {% endfor %}
-    </select>
-
-    <input
-      type="search"
-      name="q"
-      placeholder="{{ section.settings.placeholder | default: 'Search for products...' }}"
-      value="{{ search.terms | escape }}"
-      class="flex-1 px-4 py-2 border border-gray-300 rounded-r-none focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm {{ section.settings.input_classes }}"
-    >
-    <button type="submit" class="p-3 bg-gray-200 hover:bg-gray-300 rounded-r-lg border border-gray-300">
-      <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-      </svg>
-    </button>
-    <input type="hidden" name="options[prefix]" value="last">
-  </form>
-</div>
+<h1> Hello world </h1>
 
 {% schema %}
 {
   "name": "Custom Search Bar",
+  "tag": "section",
+  "class": "section-custom-search",
   "settings": [
     {
-      "type": "header",
-      "content": "Search Filters (fill all you want; leave blank to hide)"
-    },
-    {
-      "type": "text",
-      "id": "filter1_label",
-      "label": "Filter 1 Label"
-    },
-    {
-      "type": "text",
-      "id": "filter1_value",
-      "label": "Filter 1 Value (e.g., product)"
-    },
-    {
-      "type": "text",
-      "id": "filter2_label",
-      "label": "Filter 2 Label"
-    },
-    {
-      "type": "text",
-      "id": "filter2_value",
-      "label": "Filter 2 Value"
-    },
-    {
-      "type": "text",
-      "id": "filter3_label",
-      "label": "Filter 3 Label"
-    },
-    {
-      "type": "text",
-      "id": "filter3_value",
-      "label": "Filter 3 Value"
+      "type": "select",
+      "id": "default_type",
+      "label": "Default Filter",
+      "options": [
+        { "value": "", "label": "All" },
+        { "value": "product", "label": "Products" },
+        { "value": "article", "label": "Articles" },
+        { "value": "page", "label": "Pages" }
+      ],
+      "default": ""
     },
     {
       "type": "text",
@@ -78,7 +24,6 @@
       "label": "Search Placeholder",
       "default": "<Search for products...>"
     }
-  ],
-  "presets": [{ "name": "Default Custom Section" }]
+  ]
 }
 {% endschema %}

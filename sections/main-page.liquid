@@ -5,126 +5,33 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-  .az-filter {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 2rem;
-    justify-content: center;
-  }
-  .az-btn {
-    /* padding: 0.5rem 1rem;
-    cursor: pointer;
-    border: none;
-    background: none;
-    font-size: larger; */
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    border-radius: .5rem;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-  }
-
-  .btn {
-    border: none;
-    background: none;
-    font-size: larger;
-  }
-  .az-btn.active, .az-btn:hover {
-    background: #205c40;
-  }
-  .brands-grid {
-    display: grid;
-    grid-template-columns: repeat({{ section.settings.columns }}, 1fr);
-    gap: 1rem;
-  }
-  .brands-letter {
-    font-weight: bold;
-    margin-top: 2rem;
-    color: #333;
-    grid-column: 1 / -1;
-  }
-  .brand-item {
-    padding: 1rem;
-    border: 1px solid #eee;
-    text-align: center;
-    transition: all 0.3s;
-  }
-  .brand-item:hover {
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
 {%- endstyle -%}
 
-<div class="page-width section-{{ section.id }}-padding">
+<div class="page-width page-width--narrow section-{{ section.id }}-padding">
   <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {{ page.title | escape }}
   </h1>
-  <div class="az-filter" id="azFilter">
-    <button class="az-btn active" data-letter="all">View All</button>
-    {% for i in (0..25) %}
-      {% assign letter = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' | slice: i %}
-      <button class="az-btn" data-letter="{{ letter }}">{{ letter }}</button>
-    {% endfor %}
-  </div>
-  <div class="brands-container" id="brandsContainer">
-    {% assign current_letter = '' %}
-      {% for vendor in shop.vendors %}
-        {% assign first_letter = vendor | slice: 0 %}
-
-        {% if first_letter != current_letter %}
-          {% assign current_letter = first_letter %}
-          <h3 class="brands-letter">{{ current_letter }}</h3>
-        {% endif %}
-        <a href="/collections/all/{{ vendor | handleize }}" class="brand-item link">
-          {{- vendor -}}
-          {%- if section.settings.show_count %}
-            ({{ vendor | split: ' ' | first | append: '-products-count' | placeholder }})
-          {% endif -%}
-        </a>
-      {% endfor %}
+  <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    {{ page.content }}
   </div>
 </div>
 
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const filterBtns = document.querySelectorAll('.az-btn');
-    const brands = document.querySelectorAll('.brand-item, .brands-letter');
-    filterBtns.forEach((btn) => {
-      btn.addEventListener('click', () => {
-        filterBtns.forEach((b) => b.classList.remove('active'));
-        btn.classList.add('active');
-        const letter = btn.dataset.letter;
-        brands.forEach((item) => {
-          if (letter === 'all') {
-            item.style.display = 'block';
-          } else {
-            const firstLetter = item.textContent.trim().charAt(0).toUpperCase();
-            item.style.display = firstLetter === letter ? 'block' : 'none';
-          }
-        });
-      });
-    });
-  });
-</script>
-
 {% schema %}
 {
-  "name": "Brands Page",
+  "name": "t:sections.main-page.name",
   "tag": "section",
-  "class": "brands-section",
+  "class": "section",
   "settings": [
     {
       "type": "header",
-      "content": "Padding"
+      "content": "t:sections.all.padding.section_padding_heading"
     },
     {
       "type": "range",
@@ -133,7 +40,7 @@
       "max": 100,
       "step": 4,
       "unit": "px",
-      "label": "Padding top",
+      "label": "t:sections.all.padding.padding_top",
       "default": 36
     },
     {
@@ -143,29 +50,9 @@
       "max": 100,
       "step": 4,
       "unit": "px",
-      "label": "Padding bottom",
+      "label": "t:sections.all.padding.padding_bottom",
       "default": 36
-    },
-    {
-      "type": "header",
-      "content": "Brands"
-    },
-    {
-      "type": "range",
-      "id": "columns",
-      "min": 1,
-      "max": 6,
-      "step": 1,
-      "label": "Grid columns",
-      "default": 4
-    },
-    {
-      "type": "checkbox",
-      "id": "show_count",
-      "label": "Show product count",
-      "default": false
     }
-  ],
-  "presets": [{ "name": "Brands Page" }]
+  ]
 }
 {% endschema %}
