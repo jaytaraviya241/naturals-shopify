@@ -18,9 +18,9 @@
       }
     },
     "categories_page_6Qpziy": {
-      "type": "Categories-page",
+      "type": "categories-page",
       "custom_css": [],
-      "name": "Categories Grid",
+      "name": "categories Grid",
       "settings": {
         "title": "Shop by Category",
         "columns_desktop": 6,
