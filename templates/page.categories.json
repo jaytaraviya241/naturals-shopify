@@ -24,7 +24,31 @@
       "settings": {
         "title": "Shop by Category",
         "columns_desktop": 6,
-        "collection_list": []
+        "collection_list": [
+          "antioxidants",
+          "bone-joint-health",
+          "brain-health",
+          "childern",
+          "detox-support",
+          "digestive-health",
+          "green-superfoods",
+          "gummies",
+          "heart-health",
+          "immune-health",
+          "mens-health",
+          "minerals",
+          "multivitamins-1",
+          "mushrooms",
+          "pain-relief-and-medicines",
+          "pets",
+          "probiotics",
+          "protein",
+          "skin-care",
+          "sleep-support",
+          "vitamins",
+          "weight-management",
+          "womens-health"
+        ]
       }
     }
   },
