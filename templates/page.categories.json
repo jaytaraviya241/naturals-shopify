@@ -22,7 +22,7 @@
       "name": "Categories Grid",
       "settings": {
         "title": "Shop by Category",
-        "columns_desktop": 4
+        "columns_desktop": 6
       }
     }
   },
