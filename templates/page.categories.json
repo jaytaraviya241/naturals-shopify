@@ -19,6 +19,9 @@
     },
     "categories_page_6Qpziy": {
       "type": "Categories-page",
+      "custom_css": [
+        "ody{}"
+      ],
       "name": "Categories Grid",
       "settings": {
         "title": "Shop by Category",
