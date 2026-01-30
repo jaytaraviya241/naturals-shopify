@@ -1,0 +1,116 @@
+<div class="categories-grid-container">
+  {% if section.settings.title != blank %}
+    <h2 class="categories-title">{{ section.settings.title | escape }}</h2>
+  {% endif %}
+
+  <div class="categories-grid">
+    {% for collection in collections %}
+      {% unless collection.handle == 'frontpage' %}
+        <div class="category-item">
+          <a href="{{ collection.url }}" class="category-link">
+            <div class="category-image-wrapper">
+              {% if collection.image %}
+                {{ collection.image | image_url: width: 600 | image_tag: loading: 'lazy', alt: collection.title, class: 'category-image' }}
+              {% elsif collection.products.first.featured_image %}
+                {{ collection.products.first.featured_image | image_url: width: 600 | image_tag: loading: 'lazy', alt: collection.title, class: 'category-image' }}
+              {% else %}
+                {{ 'collection-1' | placeholder_svg_tag: 'placeholder-svg' }}
+              {% endif %}
+            </div>
+            <h3 class="category-name">{{ collection.title }}</h3>
+          </a>
+        </div>
+      {% endunless %}
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "categories Grid",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Shop by Category"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 2,
+      "max": 5,
+      "step": 1,
+      "label": "Columns on Desktop",
+      "default": 4
+    }
+  ],
+  "presets": [
+    {
+      "name": "Categories Grid"
+    }
+  ]
+}
+{% endschema %}
+
+{% style %}
+.categories-grid-container {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.categories-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat({{ section.settings.columns_desktop }}, 1fr);
+  gap: 30px;
+}
+.category-item {
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+.category-item:hover {
+  transform: translateY(-5px);
+}
+.category-link {
+  text-decoration: none;
+  color: inherit;
+}
+.category-image-wrapper {
+  overflow: hidden;
+  border-radius: 8px;
+  aspect-ratio: 1 / 1;
+  background-color: #f4f4f4;
+}
+.category-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.category-name {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.placeholder-svg {
+  width: 100%;
+  height: 100%;
+  fill: #888;
+}
+@media (max-width: 990px) {
+  .categories-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+}
+{% endstyle %}
