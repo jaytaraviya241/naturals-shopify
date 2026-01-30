@@ -10,9 +10,9 @@
           <a href="{{ collection.url }}" class="category-link">
             <div class="category-image-wrapper">
               {% if collection.image %}
-                {{ collection.image | image_url: width: 100 | image_tag: loading: 'lazy', alt: collection.title, class: 'category-image' }}
+                {{ collection.image | image_url: width: 131 | image_tag: loading: 'lazy', alt: collection.title, class: 'category-image' }}
               {% elsif collection.products.first.featured_image %}
-                {{ collection.products.first.featured_image | image_url: width: 600 | image_tag: loading: 'lazy', alt: collection.title, class: 'category-image' }}
+                {{ collection.products.first.featured_image | image_url: width: 131 | image_tag: loading: 'lazy', alt: collection.title, class: 'category-image' }}
               {% else %}
                 {{ 'collection-1' | placeholder_svg_tag: 'placeholder-svg' }}
               {% endif %}
