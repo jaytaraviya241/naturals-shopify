@@ -10,7 +10,7 @@
           <a href="{{ collection.url }}" class="category-link">
             <div class="category-image-wrapper">
               {% if collection.image %}
-                {{ collection.image | image_url: width: 600 | image_tag: loading: 'lazy', alt: collection.title, class: 'category-image' }}
+                {{ collection.image | image_url: width: 100 | image_tag: loading: 'lazy', alt: collection.title, class: 'category-image' }}
               {% elsif collection.products.first.featured_image %}
                 {{ collection.products.first.featured_image | image_url: width: 600 | image_tag: loading: 'lazy', alt: collection.title, class: 'category-image' }}
               {% else %}
@@ -39,10 +39,10 @@
       "type": "range",
       "id": "columns_desktop",
       "min": 2,
-      "max": 5,
+      "max": 6,
       "step": 1,
       "label": "Columns on Desktop",
-      "default": 4
+      "default": 6
     }
   ],
   "presets": [
