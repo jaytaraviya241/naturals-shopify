@@ -4,8 +4,13 @@
   {% endif %}
 
   <div class="categories-grid">
-    {% for collection in collections %}
-      {% unless collection.handle == 'frontpage' %}
+    {% assign collections_to_display = section.settings.collection_list %}
+    {% if collections_to_display == empty %}
+       {% assign collections_to_display = collections %}
+    {% endif %}
+
+    {% for collection in collections_to_display %}
+      {% unless collection.handle == 'frontpage' and section.settings.collection_list == empty %}
         <div class="category-item">
           <a href="{{ collection.url }}" class="category-link">
             <div class="category-image-wrapper">
@@ -43,6 +48,12 @@
       "step": 1,
       "label": "Columns on Desktop",
       "default": 6
+    },
+    {
+      "type": "collection_list",
+      "id": "collection_list",
+      "label": "Collections to show",
+      "info": "Select collections to display. If empty, all collections will be shown."
     }
   ],
   "presets": [
