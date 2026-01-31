@@ -238,7 +238,7 @@
 
     {%- comment -%} Header Search Filter {%- endcomment -%}
     <div class="header__search-center">
-      {% section 'header-search-filter' %}
+      {% render 'header-search-with-filter', default_text: 'All', placeholder_text: 'Search products...' %}
     </div>
 
 

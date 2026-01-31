@@ -1,17 +1,32 @@
+{% comment %}
+  Renders a header search with category filter dropdown
+  
+  Usage:
+  {% render 'header-search-with-filter',
+    default_text: 'All',
+    placeholder_text: 'Search products...'
+  %}
+{% endcomment %}
+
+{%- liquid
+  assign default_text = default_text | default: 'All'
+  assign placeholder_text = placeholder_text | default: 'Search products...'
+-%}
+
 <div class="header-search-filter">
   <form action="{{ routes.search_url }}" method="get" role="search" class="header-search-filter__form">
     <div class="header-search-filter__wrapper">
       <!-- Category Dropdown -->
       <div class="custom-select">
         <button class="custom-select__btn" type="button" aria-expanded="false" aria-haspopup="listbox" id="category-filter-button">
-          <span class="custom-select__text">{{ section.settings.default_text }}</span>
+          <span class="custom-select__text">{{ default_text }}</span>
           <svg width="20" height="20" viewBox="0 0 24 24" class="custom-select__icon" role="presentation" focusable="false" aria-hidden="true">
             <path d="M20 8.5 12.5 16 5 8.5" stroke="currentColor" stroke-width="1.5" fill="none"></path>
           </svg>
         </button>
         <ul class="custom-select__listbox" role="listbox" tabindex="-1" aria-hidden="true" hidden>
           <li class="custom-select__option" role="option" data-value="">
-            <span>{{ section.settings.default_text }}</span>
+            <span>{{ default_text }}</span>
           </li>
           {%- assign product_types = '' -%}
           {%- for product in collections.all.products limit: 1000 -%}
@@ -39,7 +54,7 @@
           type="search"
           name="q"
           class="header-search-filter__input"
-          placeholder="{{ section.settings.placeholder_text }}"
+          placeholder="{{ placeholder_text }}"
           aria-label="Search"
           autocomplete="off"
         >
@@ -57,29 +72,3 @@
 </div>
 
 <script src="{{ 'header-search-filter.js' | asset_url }}" defer="defer"></script>
-
-{% schema %}
-{
-  "name": "Header Search Filter",
-  "class": "section-header-search-filter",
-  "settings": [
-    {
-      "type": "text",
-      "id": "default_text",
-      "label": "Default Category Text",
-      "default": "All"
-    },
-    {
-      "type": "text",
-      "id": "placeholder_text",
-      "label": "Search Placeholder",
-      "default": "Search products..."
-    }
-  ],
-  "presets": [
-    {
-      "name": "Header Search Filter"
-    }
-  ]
-}
-{% endschema %}
