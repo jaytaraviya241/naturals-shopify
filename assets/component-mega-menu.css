@@ -71,13 +71,12 @@
 .mega-menu__link:hover,
 .mega-menu__link--active {
   color: rgb(var(--color-foreground));
-  text-decoration: none;
-  box-shadow: inset 0 -2px 0 0 currentColor;
+  text-decoration: underline;
+  
 }
 
 .mega-menu__link--active:hover {
-  text-decoration-thickness: none;
-  box-shadow: inset 0 -2px 0 0 currentColor;
+  text-decoration-thickness: 0.2rem;
 }
 
 .mega-menu .mega-menu__list--condensed {
