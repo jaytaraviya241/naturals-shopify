@@ -76,7 +76,8 @@
 }
 
 .mega-menu__link--active:hover {
-  text-decoration-thickness: 0.2rem;
+  text-decoration-thickness: none;
+  box-shadow: inset 0 -2px 0 0 currentColor;
 }
 
 .mega-menu .mega-menu__list--condensed {
