@@ -32,6 +32,10 @@
   border-bottom: none;
 }
 
+.header__active-menu-item {
+  text-decoration: none !important;
+  border-bottom: none;
+}
 
 .header__menu-item:has(.header__active-menu-item) {
    box-shadow: inset 0 -2px 0 0 currentColor;
