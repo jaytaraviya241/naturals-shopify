@@ -63,3 +63,8 @@ li.shadow:hover {
 li.shadow.active {
   box-shadow: inset 0 -2px 0 0 currentColor;
 }
+
+.header__submenu .header__menu-item:hover {
+    text-decoration-line: none;
+    box-shadow: none;
+}
