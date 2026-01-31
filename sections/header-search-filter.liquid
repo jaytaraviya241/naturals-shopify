@@ -1,0 +1,85 @@
+<div class="header-search-filter">
+  <form action="{{ routes.search_url }}" method="get" role="search" class="header-search-filter__form">
+    <div class="header-search-filter__wrapper">
+      <!-- Category Dropdown -->
+      <div class="custom-select">
+        <button class="custom-select__btn" type="button" aria-expanded="false" aria-haspopup="listbox" id="category-filter-button">
+          <span class="custom-select__text">{{ section.settings.default_text }}</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" class="custom-select__icon" role="presentation" focusable="false" aria-hidden="true">
+            <path d="M20 8.5 12.5 16 5 8.5" stroke="currentColor" stroke-width="1.5" fill="none"></path>
+          </svg>
+        </button>
+        <ul class="custom-select__listbox" role="listbox" tabindex="-1" aria-hidden="true" hidden>
+          <li class="custom-select__option" role="option" data-value="">
+            <span>{{ section.settings.default_text }}</span>
+          </li>
+          {%- assign product_types = '' -%}
+          {%- for product in collections.all.products limit: 1000 -%}
+            {%- unless product_types contains product.type -%}
+              {%- if product.type != blank -%}
+                {%- assign product_types = product_types | append: product.type | append: ',' -%}
+              {%- endif -%}
+            {%- endunless -%}
+          {%- endfor -%}
+          {%- assign types_array = product_types | split: ',' | sort -%}
+          {%- for type in types_array -%}
+            {%- if type != blank -%}
+              <li class="custom-select__option" role="option" data-value="{{ type | escape }}">
+                <span>{{ type | escape }}</span>
+              </li>
+            {%- endif -%}
+          {%- endfor -%}
+        </ul>
+        <input type="hidden" name="type" id="category-filter-input" value="">
+      </div>
+
+      <!-- Search Input -->
+      <div class="header-search-filter__input-wrapper">
+        <input
+          type="search"
+          name="q"
+          class="header-search-filter__input"
+          placeholder="{{ section.settings.placeholder_text }}"
+          aria-label="Search"
+          autocomplete="off"
+        >
+      </div>
+
+      <!-- Search Button -->
+      <button type="submit" class="header-search-filter__submit" aria-label="Search">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.35-4.35"></path>
+        </svg>
+      </button>
+    </div>
+  </form>
+</div>
+
+<script src="{{ 'header-search-filter.js' | asset_url }}" defer="defer"></script>
+
+{% schema %}
+{
+  "name": "Header Search Filter",
+  "class": "section-header-search-filter",
+  "settings": [
+    {
+      "type": "text",
+      "id": "default_text",
+      "label": "Default Category Text",
+      "default": "All"
+    },
+    {
+      "type": "text",
+      "id": "placeholder_text",
+      "label": "Search Placeholder",
+      "default": "Search products..."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Header Search Filter"
+    }
+  ]
+}
+{% endschema %}
