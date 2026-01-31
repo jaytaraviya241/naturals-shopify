@@ -33,6 +33,9 @@
 }
 
 
+.header__menu-item:has(.header__active-menu-item) {
+   box-shadow: inset 0 -2px 0 0 currentColor;
+}
 
 .list-menu__item--active {
   text-decoration: none !important;
