@@ -38,41 +38,19 @@
 .header__menu-item:hover {
   box-shadow: inset 0 -2px 0 0 currentColor;
 }
-/* 
+
 .header__menu-item span {
-<<<<<<< HEAD
   border-bottom: none;
-=======
-  border-bottom: 2px solid transparent;
-  padding-bottom: 2px;
-} */
-
-.header__menu-item:hover span {
-  border-bottom-color: currentColor;
->>>>>>> e3ab7a133f41aa27a5189bb6299c0c259fada52a
 }
 
-/* .header__active-menu-item {
+.header__active-menu-item {
   text-decoration: none !important;
-<<<<<<< HEAD
   border-bottom: none;
 }
-
-/* Ensure active state also shows underline on the container if possible, 
-   but .header__active-menu-item is inside. 
-   So we might need to target the active link directly if it has a class on the a tag.
-   Checking header-mega-menu.liquid, the link has class 'header__menu-item'.
-   The span inside has 'header__active-menu-item'.
-   To target the container of the active item:
-*/
 
 .header__menu-item:has(.header__active-menu-item) {
    box-shadow: inset 0 -2px 0 0 currentColor;
 }
-=======
-  border-bottom: 2px solid currentColor;
-} */
->>>>>>> e3ab7a133f41aa27a5189bb6299c0c259fada52a
 
 .list-menu__item--active {
   text-decoration: none !important;
