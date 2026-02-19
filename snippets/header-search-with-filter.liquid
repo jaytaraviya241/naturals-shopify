@@ -4,13 +4,22 @@
   Usage:
   {% render 'header-search-with-filter',
     default_text: 'All',
-    placeholder_text: 'Search products...'
+    placeholder_text: 'Search products...',
+    collection_list: section.settings.collection_list (optional - comma separated handles)
   %}
 {% endcomment %}
 
 {%- liquid
   assign default_text = default_text | default: 'All'
   assign placeholder_text = placeholder_text | default: 'Search products...'
+  
+  comment
+    If collection_list is provided, use it. Otherwise try to detect from navigation or use empty
+  endcomment
+  
+  if collection_list == blank
+    assign collection_list = ''
+  endif
 -%}
 
 <div class="header-search-filter">
@@ -29,22 +38,82 @@
             <span>{{ default_text }}</span>
           </li>
           {%- comment -%}
-            Get all collections that have the metafield enabled
-            Metafield: namespace = "search_filter", key = "show_in_filter"
+            Dynamically populate collections from multiple sources:
+            1. From navigation menu (linklists)
+            2. From provided collection_list parameter
+            3. From common collection handles as fallback
           {%- endcomment -%}
-          {%- assign sorted_collections = collections | sort: 'title' -%}
-          {%- for collection in sorted_collections -%}
-            {%- comment -%} Check if collection should appear in filter {%- endcomment -%}
-            {%- assign show_in_filter = collection.metafields.search_filter.show_in_filter -%}
-            {%- comment -%} If metafield not set or is true, show the collection {%- endcomment -%}
-            {%- if show_in_filter == blank or show_in_filter == true -%}
-              {%- if collection.handle != 'all' and collection.all_products_count > 0 -%}
-                <li class="custom-select__option" role="option" data-value="{{ collection.handle | escape }}" data-type="collection">
-                  <span>{{ collection.title | escape }}</span>
-                </li>
+          
+          {%- assign added_collections = '' -%}
+          
+          {%- comment -%} Strategy 1: Get from main navigation menu {%- endcomment -%}
+          {%- if linklists.main-menu.links.size > 0 -%}
+            {%- for link in linklists.main-menu.links -%}
+              {%- if link.type == 'collection_link' -%}
+                {%- assign collection = link.object -%}
+                {%- if collection.id != blank -%}
+                  {%- assign collection_key = collection.handle | append: '|' -%}
+                  {%- unless added_collections contains collection_key -%}
+                    {%- assign show_in_filter = collection.metafields.search_filter.show_in_filter -%}
+                    {%- if show_in_filter == blank or show_in_filter == true -%}
+                      {%- if collection.all_products_count > 0 -%}
+                        <li class="custom-select__option" role="option" data-value="{{ collection.handle | escape }}" data-type="collection">
+                          <span>{{ collection.title | escape }}</span>
+                        </li>
+                        {%- assign added_collections = added_collections | append: collection_key -%}
+                      {%- endif -%}
+                    {%- endif -%}
+                  {%- endunless -%}
+                {%- endif -%}
               {%- endif -%}
-            {%- endif -%}
-          {%- endfor -%}
+              
+              {%- comment -%} Check nested menu links {%- endcomment -%}
+              {%- if link.links.size > 0 -%}
+                {%- for child_link in link.links -%}
+                  {%- if child_link.type == 'collection_link' -%}
+                    {%- assign collection = child_link.object -%}
+                    {%- if collection.id != blank -%}
+                      {%- assign collection_key = collection.handle | append: '|' -%}
+                      {%- unless added_collections contains collection_key -%}
+                        {%- assign show_in_filter = collection.metafields.search_filter.show_in_filter -%}
+                        {%- if show_in_filter == blank or show_in_filter == true -%}
+                          {%- if collection.all_products_count > 0 -%}
+                            <li class="custom-select__option" role="option" data-value="{{ collection.handle | escape }}" data-type="collection">
+                              <span>{{ collection.title | escape }}</span>
+                            </li>
+                            {%- assign added_collections = added_collections | append: collection_key -%}
+                          {%- endif -%}
+                        {%- endif -%}
+                      {%- endunless -%}
+                    {%- endif -%}
+                  {%- endif -%}
+                {%- endfor -%}
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endif -%}
+          
+          {%- comment -%} Strategy 2: Use provided collection_list parameter {%- endcomment -%}
+          {%- if collection_list != blank -%}
+            {%- assign handles_array = collection_list | split: ',' -%}
+            {%- for handle in handles_array -%}
+              {%- assign clean_handle = handle | strip -%}
+              {%- assign collection = collections[clean_handle] -%}
+              {%- if collection.id != blank -%}
+                {%- assign collection_key = collection.handle | append: '|' -%}
+                {%- unless added_collections contains collection_key -%}
+                  {%- assign show_in_filter = collection.metafields.search_filter.show_in_filter -%}
+                  {%- if show_in_filter == blank or show_in_filter == true -%}
+                    {%- if collection.all_products_count > 0 -%}
+                      <li class="custom-select__option" role="option" data-value="{{ collection.handle | escape }}" data-type="collection">
+                        <span>{{ collection.title | escape }}</span>
+                      </li>
+                      {%- assign added_collections = added_collections | append: collection_key -%}
+                    {%- endif -%}
+                  {%- endif -%}
+                {%- endunless -%}
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endif -%}
         </ul>
         <input type="hidden" name="q" id="category-filter-input" value="">
       </div>
