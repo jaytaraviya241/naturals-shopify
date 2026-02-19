@@ -79,12 +79,34 @@ class HeaderSearchFilter {
     const option = this.options[index];
     const value = option.getAttribute("data-value");
     const text = option.querySelector("span").textContent;
+    const isCollection = option.getAttribute("data-type") === "collection";
 
     // Update button text
     this.buttonText.textContent = text;
 
-    // Update hidden input
+    // Update hidden input - store collection handle or empty for "All"
     this.hiddenInput.value = value;
+
+    // If a collection is selected, we need to modify the form to search within that collection
+    const form = this.hiddenInput.closest('form');
+    if (form) {
+      // Remove any existing collection filter
+      const existingCollectionInput = form.querySelector('input[name="type"]');
+      if (existingCollectionInput) {
+        existingCollectionInput.remove();
+      }
+
+      // If a collection is selected, add it to the search
+      if (value && isCollection) {
+        // Update the hidden input to include collection in search
+        // We'll modify the form action to search within the collection
+        const collectionUrl = `/collections/${value}`;
+        form.action = collectionUrl + '/search';
+      } else {
+        // Reset to default search
+        form.action = '/search';
+      }
+    }
 
     // Close dropdown
     this.close();

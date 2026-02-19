@@ -29,34 +29,24 @@
             <span>{{ default_text }}</span>
           </li>
           {%- comment -%}
-            Get all unique product types from the store
-            We'll use a paginate approach to get all products
+            Get all collections that have the metafield enabled
+            Metafield: namespace = "search_filter", key = "show_in_filter"
           {%- endcomment -%}
-          {%- paginate collections.all.products by 250 -%}
-            {%- assign product_types = '' -%}
-            {%- for product in collections.all.products -%}
-              {%- if product.type != blank -%}
-                {%- assign type_with_separator = product.type | append: '||' -%}
-                {%- unless product_types contains type_with_separator -%}
-                  {%- assign product_types = product_types | append: type_with_separator -%}
-                {%- endunless -%}
-              {%- endif -%}
-            {%- endfor -%}
-            
-            {%- comment -%} Split and sort the types {%- endcomment -%}
-            {%- assign types_array = product_types | split: '||' | sort -%}
-            
-            {%- comment -%} Output the options {%- endcomment -%}
-            {%- for type in types_array -%}
-              {%- if type != blank -%}
-                <li class="custom-select__option" role="option" data-value="{{ type | escape }}">
-                  <span>{{ type | escape }}</span>
+          {%- assign sorted_collections = collections | sort: 'title' -%}
+          {%- for collection in sorted_collections -%}
+            {%- comment -%} Check if collection should appear in filter {%- endcomment -%}
+            {%- assign show_in_filter = collection.metafields.search_filter.show_in_filter -%}
+            {%- comment -%} If metafield not set or is true, show the collection {%- endcomment -%}
+            {%- if show_in_filter == blank or show_in_filter == true -%}
+              {%- if collection.handle != 'all' and collection.all_products_count > 0 -%}
+                <li class="custom-select__option" role="option" data-value="{{ collection.handle | escape }}" data-type="collection">
+                  <span>{{ collection.title | escape }}</span>
                 </li>
               {%- endif -%}
-            {%- endfor -%}
-          {%- endpaginate -%}
+            {%- endif -%}
+          {%- endfor -%}
         </ul>
-        <input type="hidden" name="product_type" id="category-filter-input" value="">
+        <input type="hidden" name="q" id="category-filter-input" value="">
       </div>
 
       <!-- Search Input -->
